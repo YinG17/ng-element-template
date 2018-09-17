@@ -25,3 +25,34 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Notes
+
+## Install Dependencies
+
+Run `npm install`. ready to use.
+
+## Includes
+
+Style = scss
+
+angularFire2 @ 5.0.1
+
+firebase @ 5.5.0
+
+bootstrap @ 4.1.3
+
+rxjs-compat @ 6.3.2
+
+@angular/elements @ 6.1.7
+
+@webcomponents/custom-elements polyfill @ 1.2.0
+
+Add support for window.customElements ~ import '@webcomponents/custom-elements/custom-elements.min';
+
+Required for custom elements for apps building to es5. ~ import '@webcomponents/custom-elements/src/native-shim';
+
+## Production Build
+
+Run `npm build:elements`
+# ng-element-template
